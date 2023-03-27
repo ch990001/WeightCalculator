@@ -15,7 +15,7 @@
         <Label Content="盎司" HorizontalAlignment="Left" Margin="354,184,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="磅" HorizontalAlignment="Left" Margin="577,184,0,0" VerticalAlignment="Top" FontSize="18"/>
         <Label Content="說明文字" HorizontalAlignment="Left" Margin="130,294,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox x:Name="txtMG" HorizontalAlignment="Left" Margin="130,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtMG" HorizontalAlignment="Left" Margin="130,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" KeyUp="txtMG_KeyUp"/>
         <TextBox x:Name="txtG" HorizontalAlignment="Left" Margin="354,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
         <TextBox x:Name="txtKG" HorizontalAlignment="Left" Margin="577,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
         <TextBox x:Name="txtT" HorizontalAlignment="Left" Margin="130,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>

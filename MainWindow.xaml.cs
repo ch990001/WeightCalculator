@@ -24,5 +24,10 @@ namespace WeightCalculator
         {
             InitializeComponent();
         }
+
+        private void txtMG_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }
