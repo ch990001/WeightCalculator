@@ -1,0 +1,28 @@
+﻿<Window x:Class="WeightCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeightCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="毫克" HorizontalAlignment="Left" Margin="130,89,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Button x:Name="btnAllClear" Content="清除" HorizontalAlignment="Left" Margin="130,33,0,0" VerticalAlignment="Top" FontSize="18" Height="36" Width="106"/>
+
+        <Label Content="公斤" HorizontalAlignment="Left" Margin="577,89,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="噸" HorizontalAlignment="Left" Margin="130,184,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="盎司" HorizontalAlignment="Left" Margin="354,184,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="磅" HorizontalAlignment="Left" Margin="577,184,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="130,294,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="txtMG" HorizontalAlignment="Left" Margin="130,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtG" HorizontalAlignment="Left" Margin="354,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtKG" HorizontalAlignment="Left" Margin="577,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtT" HorizontalAlignment="Left" Margin="130,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtOZ" HorizontalAlignment="Left" Margin="354,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtIB" HorizontalAlignment="Left" Margin="577,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18"/>
+        <TextBox x:Name="txtlnfo" HorizontalAlignment="Left" Margin="130,332,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="567" FontSize="18" Height="46"/>
+        <Label Content="公克" HorizontalAlignment="Left" Margin="354,89,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+</Window>
